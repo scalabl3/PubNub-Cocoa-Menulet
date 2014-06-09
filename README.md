@@ -5,10 +5,42 @@
 ### Base XCode Workspace and Projects
 
 Use this base to build your own Menulet based apps that use PubNub! 
-There are two projects, one for Objective-C and one for the new Swift language by Apple.
-They are aptly named Menulet and MenuletSwift. 
-However, remember to open the Workspace file (xcworkspace) rather than xcproject files because CocoaPods is used for PubNub libraries.
-The PubNub library is in the Podfile.
-If you remove a Project, make sure to update the Podfile in the root folder.
-The Swift one obviously won't build in XCode 5, so don't try to build that target without XCode 6 Beta.
 
+One Workspace, Two Projects: 
+
+* Objective-C
+
+* Swift
+
+### Brief Instructions
+
+1. Clone the Repo
+
+2. Open the **Workspace File** (MenuletApps.xcworkspace) rather than project files
+because we use CocoaPods for the PubNub SDK. CocoaPods updates the build info for
+workspace files to include Pods (libraries) in the build process.
+
+3. If you decide to remove a Project, make sure to update the Podfile in the root folder.
+
+4. The Swift one obviously won't build in XCode 5, so don't try to build that target without XCode 6 Beta. 
+However, the project itself won't interfere with the Objective-C one.
+
+```
++------------------------------------------+
+| PubNub-Cocoa-Menulet                     |
++------------------------------------------+
+|                                           
++-+ Podfile                                 
+|                                           
++-+ Pods/                                   
+|                                           
++-+ screenshots/                            
+|                                           
++-+ MenuletApps.xcworkspace <<<             
+|                                           
++-----+ Menulet/Menulet.xcproject           
+|                                           
++-----+ MenuletSwift/MenuletSwift.xcproject 
+```
+
+ 
