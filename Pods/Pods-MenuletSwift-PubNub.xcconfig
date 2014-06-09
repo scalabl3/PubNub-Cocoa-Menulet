@@ -1,0 +1,1 @@
+PODS_MENULETSWIFT_PUBNUB_OTHER_LDFLAGS = -lz -framework CFNetwork -framework CoreWLAN -framework SystemConfiguration
