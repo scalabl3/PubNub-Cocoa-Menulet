@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6154.17"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PreferencesWindowController">
+            <connections>
+                <outlet property="connectedStatusLight" destination="pP9-kp-eRC" id="VZ0-ZT-75S"/>
+                <outlet property="connectedText" destination="aga-C3-gTp" id="9Hj-Z8-UJW"/>
+                <outlet property="formPubNubPreferences" destination="dTj-0X-FTW" id="vQF-ZW-v6R"/>
+                <outlet property="lightChannelSubscribed" destination="AO2-5d-ADT" id="6cL-VV-gQq"/>
+                <outlet property="lightPublishKeyValid" destination="gyG-QZ-xNE" id="sg8-nl-pQN"/>
+                <outlet property="lightSubscribeKeyValid" destination="XnM-sa-bfO" id="DRr-0V-Acn"/>
+                <outlet property="lightTestPublish" destination="ZKm-aJ-ds8" id="1Mn-O2-QIn"/>
+                <outlet property="lightTestSubscribe" destination="801-qG-KP1" id="0Kt-k0-VV3"/>
+                <outlet property="operationsText" destination="xdA-aU-QRF" id="VK5-3g-u0R"/>
+                <outlet property="preferencesToolbar" destination="LmO-Dy-GiP" id="xuY-lM-rh2"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Menulet Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="800" height="510"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="800" height="510"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <splitView ambiguous="YES" misplaced="YES" dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kPT-Fm-2Pv">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="510"/>
+                        <subviews>
+                            <customView ambiguous="YES" misplaced="YES" id="CEk-7n-vnW" userLabel="Left Pane">
+                                <rect key="frame" x="0.0" y="0.0" width="250" height="510"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <subviews>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ILW-5o-l9z" userLabel="Logo">
+                                        <rect key="frame" x="70" y="387" width="111" height="111"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="111" id="KWk-Hd-PsS"/>
+                                            <constraint firstAttribute="width" constant="111" id="e4W-Pl-HKg"/>
+                                        </constraints>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Pubnub Logo" id="Ttw-7f-S9f"/>
+                                    </imageView>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N1u-iP-FpY" userLabel="www.pubnub.com">
+                                        <rect key="frame" x="60" y="300" width="118" height="17"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="www.pubnub.com" allowsEditingTextAttributes="YES" id="6RQ-Fq-ytH">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZdC-3o-RNn" userLabel="LogoType">
+                                        <rect key="frame" x="35" y="261" width="180" height="180"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ZdC-3o-RNn" secondAttribute="height" multiplier="1:1" id="1Ff-yw-93m"/>
+                                            <constraint firstAttribute="width" constant="180" id="o3I-LO-4Gu"/>
+                                        </constraints>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="PubNub Name" id="VFI-YK-rcm"/>
+                                    </imageView>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aga-C3-gTp">
+                                        <rect key="frame" x="88" y="249" width="121" height="18"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Not Connected" id="7OF-ye-kkE">
+                                            <font key="font" metaFont="systemBold" size="14"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pP9-kp-eRC" customClass="TrafficLight">
+                                        <rect key="frame" x="67" y="252" width="12" height="12"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Traffic Red" id="op9-Cc-eDn"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Es4-nI-ufA"/>
+                                    <constraint firstAttribute="centerX" secondItem="ZdC-3o-RNn" secondAttribute="centerX" id="KVC-9P-0id"/>
+                                    <constraint firstItem="ZdC-3o-RNn" firstAttribute="top" secondItem="CEk-7n-vnW" secondAttribute="top" constant="69" id="S2J-Fx-B2o"/>
+                                    <constraint firstItem="ILW-5o-l9z" firstAttribute="top" secondItem="CEk-7n-vnW" secondAttribute="top" constant="12" id="sOF-mk-ZaP"/>
+                                    <constraint firstAttribute="centerX" secondItem="ILW-5o-l9z" secondAttribute="centerX" id="ujS-bX-2va"/>
+                                </constraints>
+                            </customView>
+                            <customView ambiguous="YES" misplaced="YES" id="8zB-C7-JlK" userLabel="Right Pane">
+                                <rect key="frame" x="260" y="0.0" width="540" height="510"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <subviews>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mjw-JR-g0w">
+                                        <rect key="frame" x="38" y="442" width="304" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="Vks-i9-chN"/>
+                                            <constraint firstAttribute="width" constant="300" id="gYJ-nR-Uek"/>
+                                        </constraints>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="PubNub Account Settings" id="b1b-e1-yOK">
+                                            <font key="font" metaFont="systemBold" size="19"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JGg-Tm-NSF">
+                                        <rect key="frame" x="38" y="249" width="304" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="3gT-qu-DX5"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="31" id="DEl-eR-7Wr"/>
+                                            <constraint firstAttribute="width" constant="300" id="ncb-0b-2U5"/>
+                                            <constraint firstAttribute="height" constant="31" id="owh-eD-v4T"/>
+                                        </constraints>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="PubNub Connection" id="IKD-Af-k48">
+                                            <font key="font" metaFont="systemBold" size="19"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <form verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" mode="highlight" translatesAutoresizingMaskIntoConstraints="NO" id="dTj-0X-FTW">
+                                        <rect key="frame" x="57" y="338" width="450" height="82"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="450" id="27L-Mi-24H" userLabel="Width - (450) - Form"/>
+                                        </constraints>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        <size key="cellSize" width="450" height="22"/>
+                                        <size key="intercellSpacing" width="1" height="8"/>
+                                        <formCell key="prototype" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="justified" title="Field:" id="tb3-js-zyr">
+                                            <font key="font" metaFont="system"/>
+                                            <font key="titleFont" metaFont="system"/>
+                                        </formCell>
+                                        <cells>
+                                            <column>
+                                                <formCell scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="justified" title="channel" placeholderString="my_channel" id="d8o-dr-43Y">
+                                                    <font key="font" metaFont="system"/>
+                                                    <font key="titleFont" metaFont="system"/>
+                                                </formCell>
+                                                <formCell scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="left" tag="1" title="publish key" placeholderString="pub-12345678-abcd-1a2b-3c4d-5e6f78901234" id="zsv-Gs-0IY">
+                                                    <font key="font" metaFont="system"/>
+                                                    <font key="titleFont" metaFont="system"/>
+                                                </formCell>
+                                                <formCell scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="justified" tag="2" title="subscribe key" placeholderString="sub-98765432-dcba-9f8e-7d6c-1a2b3c4d5e6f" id="0N3-Cp-qoo">
+                                                    <font key="font" metaFont="system"/>
+                                                    <font key="titleFont" metaFont="system"/>
+                                                </formCell>
+                                            </column>
+                                        </cells>
+                                    </form>
+                                    <textField focusRingType="none" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xdA-aU-QRF">
+                                        <rect key="frame" x="43" y="42" width="464" height="166"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="464" id="Cu3-F2-SoF"/>
+                                            <constraint firstAttribute="height" constant="166" id="Wbd-8M-f5f"/>
+                                        </constraints>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" alignment="left" placeholderString="PubNub test_menulet channel response (click Test Button)" drawsBackground="YES" id="2Xw-oS-Qxb">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="0.0" green="1" blue="0.016062608870000002" alpha="0.75" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JFK-5r-a4D">
+                                        <rect key="frame" x="68" y="213" width="121" height="18"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Subscribe Test" id="uBk-ZL-u5U">
+                                            <font key="font" metaFont="systemBold" size="14"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="801-qG-KP1" customClass="TrafficLight">
+                                        <rect key="frame" x="47" y="216" width="12" height="12"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Traffic Grey" id="07V-hx-9aJ"/>
+                                    </imageView>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rHj-bo-Wty">
+                                        <rect key="frame" x="242" y="252" width="66" height="32"/>
+                                        <buttonCell key="cell" type="push" title="Test" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zmP-uk-rlj">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AO2-5d-ADT" customClass="TrafficLight">
+                                        <rect key="frame" x="513" y="404" width="12" height="12"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Traffic Yellow" id="7eT-y4-svu"/>
+                                    </imageView>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gyG-QZ-xNE" customClass="TrafficLight">
+                                        <rect key="frame" x="513" y="374" width="12" height="12"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Traffic Red" id="oMH-dp-wsg"/>
+                                    </imageView>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XnM-sa-bfO" customClass="TrafficLight">
+                                        <rect key="frame" x="513" y="344" width="12" height="12"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Traffic Red" id="If5-Lq-YB3"/>
+                                    </imageView>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0nA-Nr-Zdi">
+                                        <rect key="frame" x="228" y="213" width="121" height="18"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Publish Test" id="Eqa-XZ-ogD">
+                                            <font key="font" metaFont="systemBold" size="14"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZKm-aJ-ds8" customClass="TrafficLight">
+                                        <rect key="frame" x="207" y="216" width="12" height="12"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Traffic Grey" id="GKp-Jw-Qkl"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dTj-0X-FTW" firstAttribute="leading" secondItem="8zB-C7-JlK" secondAttribute="leading" constant="57" id="HO7-k4-6qe"/>
+                                    <constraint firstItem="JGg-Tm-NSF" firstAttribute="top" secondItem="8zB-C7-JlK" secondAttribute="top" constant="230" id="PVN-xg-GDo"/>
+                                    <constraint firstItem="xdA-aU-QRF" firstAttribute="top" secondItem="8zB-C7-JlK" secondAttribute="top" constant="302" id="fgq-97-pDW"/>
+                                    <constraint firstItem="xdA-aU-QRF" firstAttribute="leading" secondItem="8zB-C7-JlK" secondAttribute="leading" constant="43" id="ho1-tV-Y3x"/>
+                                    <constraint firstItem="dTj-0X-FTW" firstAttribute="top" secondItem="8zB-C7-JlK" secondAttribute="top" constant="90" id="uFr-hg-wNa"/>
+                                    <constraint firstItem="JGg-Tm-NSF" firstAttribute="leading" secondItem="8zB-C7-JlK" secondAttribute="leading" constant="40" id="ygY-NT-4Py"/>
+                                    <constraint firstItem="Mjw-JR-g0w" firstAttribute="leading" secondItem="8zB-C7-JlK" secondAttribute="leading" constant="40" id="zIF-E6-8zC"/>
+                                    <constraint firstItem="dTj-0X-FTW" firstAttribute="top" secondItem="Mjw-JR-g0w" secondAttribute="bottom" constant="22" id="zfM-de-P1p"/>
+                                </constraints>
+                            </customView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="800" id="GoD-vY-IMn"/>
+                        </constraints>
+                        <holdingPriorities>
+                            <real value="250"/>
+                            <real value="250"/>
+                        </holdingPriorities>
+                    </splitView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kPT-Fm-2Pv" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" id="Kd8-NU-dGB"/>
+                    <constraint firstItem="kPT-Fm-2Pv" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" id="cT8-wy-Gyo"/>
+                </constraints>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="4528E82C-9604-47F1-BA84-2A4DC954173D" autosavesConfiguration="NO" allowsUserCustomization="NO" showsBaselineSeparator="NO" displayMode="iconAndLabel" sizeMode="regular" id="LmO-Dy-GiP">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="zXI-Nb-a7X"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="p83-ep-dSc"/>
+                    <toolbarItem implicitItemIdentifier="DFD8DA00-C5D1-4AB3-A5E0-8449C107F11E" explicitItemIdentifier="pubnub" label="Pubnub" paletteLabel="Pubnub" toolTip="PubNub Settings" tag="1" image="Pubnub Toolbar" visibilityPriority="1" selectable="YES" id="x65-se-VLN"/>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="x65-se-VLN"/>
+                    <toolbarItem reference="p83-ep-dSc"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="444" y="43"/>
+        </window>
+    </objects>
+    <resources>
+        <image name="PubNub Name" width="513" height="112"/>
+        <image name="Pubnub Logo" width="256" height="256"/>
+        <image name="Pubnub Toolbar" width="32" height="32"/>
+        <image name="Traffic Grey" width="12" height="12"/>
+        <image name="Traffic Red" width="12" height="12"/>
+        <image name="Traffic Yellow" width="12" height="12"/>
+    </resources>
+</document>

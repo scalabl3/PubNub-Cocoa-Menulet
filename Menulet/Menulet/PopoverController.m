@@ -11,9 +11,6 @@
 #import "PopoverMenulet.h"
 #import "PopoverController.h"
 
-@interface PopoverController ()
-
-@end
 
 @implementation PopoverController
 
@@ -42,7 +39,7 @@
 - (void)menuletClicked
 {
    NSLog(@"Menulet clicked");   
-   AppDelegate *appDelegate = [[NSApplication sharedApplication]delegate];
+    AppDelegate *appDelegate = (AppDelegate *)[[NSApplication sharedApplication] delegate];
    self.active = ! self.active;
    if (self.active) {
       [self _setupPopover];
@@ -54,9 +51,9 @@
    }
 }
 
-- (IBAction)didClickPubnubPreferences:(id)sender {
-   AppDelegate *appDelegate = [[NSApplication sharedApplication]delegate];
-   [appDelegate.preferencesWindowController showWindow:nil];
+- (IBAction)didClickPubnubPreferences:(id)sender
+{
+    AppDelegate* appDelegate = (AppDelegate*)[[NSApplication sharedApplication] delegate];
+    [appDelegate showPreferencesWindow];
 }
-
 @end

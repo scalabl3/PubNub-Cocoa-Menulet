@@ -7,8 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "PopoverMenulet.h"
-#import "PopoverController.h"
 
 @interface AppDelegate ()
 @end
@@ -16,65 +14,80 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize popoverMenulet;
-@synthesize popoverController;
-@synthesize statusItem;
+@synthesize pubnubConfig;
 
-@synthesize preferencesWindowController;
-@synthesize preferencesWindow;
+@synthesize popoverMenulet;
+@synthesize statusItem;
 @synthesize pubnubSettings;
 
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-
-   // Setup Menulet Icon (NSStatusBar systemStatusBar)
-   CGFloat thickness = [[NSStatusBar systemStatusBar] thickness];
-   self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:thickness];
-   
-   // Assign Controller for Menulet Popover Window and delegate
-   self.popoverMenulet = [[PopoverMenulet alloc] initWithFrame:(NSRect){.size={thickness, thickness}}]; /* square item */
-   self.popoverController = [[PopoverController alloc] init];
-   self.popoverMenulet.delegate = self.popoverController;
-   [self.statusItem setView:self.popoverMenulet];
-   [self.statusItem setHighlightMode:NO]; // Don't show blue highlight when clicked on
-   
-   // Initialize Preferences Window Controller
-   preferencesWindowController = [[NSWindowController alloc] initWithWindow:preferencesWindow];
-
-   NSToolbar* preferencesToolbar = [preferencesWindow toolbar];
-   [preferencesToolbar.items[0] setEnabled:YES];
-   [preferencesToolbar setSelectedItemIdentifier: @"pubnub"];
-   
-   
-   // PubNub Preferences form Aesthetics
-   // Auto-resize-cells is disabled, and title size fixed via the following
-   [self.formPubNubPreferences setTitleAlignment:NSRightTextAlignment];
-   for (NSFormCell* c in _formPubNubPreferences.cells) {
-      [c setTitleWidth:80.0];
-   }
-
-   // Create empty values for User Preferences
-   NSMutableDictionary* defaultPrefs = [[NSMutableDictionary alloc] init];
-   defaultPrefs[@"pubnubChannel"] = @"";
-   defaultPrefs[@"pubnubPublishKey"] = @"";
-   defaultPrefs[@"pubnubSubscribeKey"] = @"";
-   
-   NSDictionary* dp = [defaultPrefs copy];
-   
-   // Initialize UserDefaults with empty User Preferences (won't overwrite existing values)
-   [ [NSUserDefaults standardUserDefaults] registerDefaults:dp];
-   
+    
+    [PubNub setDelegate:self];
+    //[self updatePubnubConnection];
+    [self setupUserDefaults];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
-   // Insert code here to tear down your application
+    
+}
+
+#pragma Setup UserDefaults
+- (void)setupUserDefaults
+{
+    // Create empty values for User Preferences
+    NSMutableDictionary* defaultPrefs = [[NSMutableDictionary alloc] init];
+    defaultPrefs[@"pubnubChannel"] = @"";
+    defaultPrefs[@"pubnubPublishKey"] = @"";
+    defaultPrefs[@"pubnubSubscribeKey"] = @"";
+    defaultPrefs[@"pubnubPublishKeyValid"] = [NSNumber numberWithBool:NO];
+    defaultPrefs[@"pubnubSubscribeKeyValid"] = [NSNumber numberWithBool:NO];
+    
+    NSDictionary* dp = [defaultPrefs copy];
+    
+    // Initialize UserDefaults with empty User Preferences (won't overwrite existing values)
+    [[NSUserDefaults standardUserDefaults] registerDefaults:dp];
+    
+    pubnubSettings.channel = [[NSUserDefaults standardUserDefaults] stringForKey:@"pubnubChannel"];
+    pubnubSettings.publishKey = [[NSUserDefaults standardUserDefaults] stringForKey:@"pubnubPublishKey"];
+    pubnubSettings.subscribeKey = [[NSUserDefaults standardUserDefaults] stringForKey:@"pubnubSubscribeKey"];
+    
+    self.preferencesWindowController = [[PreferencesController alloc] init];
+    self.popoverWindowController = [[PopoverController alloc] init];
+    
+
+}
+
+#pragma StatusBarSetup
+
+- (void)setupStatusBarIcon
+{
+    // Setup Menulet Icon (NSStatusBar systemStatusBar)
+    CGFloat thickness = [[NSStatusBar systemStatusBar] thickness];
+    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:thickness];
+    
+    // Assign Controller for Menulet Popover Window and delegate
+    self.popoverMenulet = [[PopoverMenulet alloc] initWithFrame:(NSRect){.size={thickness, thickness}}]; /* square item */
+    self.popoverMenulet.delegate = self.popoverWindowController;
+    [self.statusItem setView:self.popoverMenulet];
+    [self.statusItem setHighlightMode:NO]; // Don't show blue highlight when clicked on
+
+}
+
+#pragma Open Preferences Window
+
+// Open Preferences Window
+- (void) showPreferencesWindow
+{
+    
+    [self.preferencesWindowController showWindow:nil];
 }
 
 // Open Preferences Window from Menu or CMD-,
-- (IBAction)menuClickPreferences:(id)sender {
-   [preferencesWindowController showWindow:nil];
+- (IBAction)menuClickPreferences:(id)sender
+{
+    [self showPreferencesWindow];
 }
 
-- (IBAction)clickPreferencesToolbarPubnub:(id)sender {
-   // do things here?
-}
 @end
+

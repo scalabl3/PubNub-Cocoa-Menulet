@@ -1,1015 +1,513 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>4B47F58F194257E700C0150A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PopoverMenulet.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B47F590194257E700C0150A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PopoverMenulet.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B47F591194257E700C0150A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B47F590194257E700C0150A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4B7F1B241940ECC70089411B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PubnubSettings.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B7F1B251940ECC70089411B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PubnubSettings.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B7F1B261940ECC70089411B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B7F1B251940ECC70089411B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BDE421E193F9D710055C487</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4BDE4229193F9D710055C487</string>
-				<string>4BDE423D193F9D710055C487</string>
-				<string>4BDE4228193F9D710055C487</string>
-				<string>8BDCB691668547CEB0B49D0C</string>
-				<string>521F601EF2694D08B17CD43D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE421F193F9D710055C487</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0600</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Jasdeep Jaitla</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>4BDE4226193F9D710055C487</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0</string>
-						<key>DevelopmentTeam</key>
-						<string>5G9XC2C6F8</string>
-					</dict>
-					<key>4BDE4239193F9D710055C487</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0</string>
-						<key>TestTargetID</key>
-						<string>4BDE4226193F9D710055C487</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>4BDE4222193F9D710055C487</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>4BDE421E193F9D710055C487</string>
-			<key>productRefGroup</key>
-			<string>4BDE4228193F9D710055C487</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>4BDE4226193F9D710055C487</string>
-				<string>4BDE4239193F9D710055C487</string>
-			</array>
-		</dict>
-		<key>4BDE4222193F9D710055C487</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4BDE4242193F9D710055C487</string>
-				<string>4BDE4243193F9D710055C487</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4BDE4223193F9D710055C487</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4B7F1B261940ECC70089411B</string>
-				<string>4B47F591194257E700C0150A</string>
-				<string>4BDE4230193F9D710055C487</string>
-				<string>4BDE4253193FC7B90055C487</string>
-				<string>4BDE422D193F9D710055C487</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4BDE4224193F9D710055C487</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E045ED1BD554436AACF15289</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4BDE4225193F9D710055C487</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4BDE4254193FC7B90055C487</string>
-				<string>4BDE4232193F9D710055C487</string>
-				<string>4BDE4235193F9D710055C487</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4BDE4226193F9D710055C487</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4BDE4244193F9D710055C487</string>
-			<key>buildPhases</key>
-			<array>
-				<string>558DA42576F94EFAA33DD6B5</string>
-				<string>4BDE4223193F9D710055C487</string>
-				<string>4BDE4224193F9D710055C487</string>
-				<string>4BDE4225193F9D710055C487</string>
-				<string>5963D76FAA93460DB451EEE1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Menulet</string>
-			<key>productName</key>
-			<string>Menulet</string>
-			<key>productReference</key>
-			<string>4BDE4227193F9D710055C487</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>4BDE4227193F9D710055C487</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Menulet.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4BDE4228193F9D710055C487</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4BDE4227193F9D710055C487</string>
-				<string>4BDE423A193F9D710055C487</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE4229193F9D710055C487</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4BDE422E193F9D710055C487</string>
-				<string>4BDE422F193F9D710055C487</string>
-				<string>4BDE4231193F9D710055C487</string>
-				<string>4BDE4233193F9D710055C487</string>
-				<string>4BDE422A193F9D710055C487</string>
-				<string>4BDE4250193FC7B90055C487</string>
-				<string>4BDE4251193FC7B90055C487</string>
-				<string>4BDE4252193FC7B90055C487</string>
-				<string>4B7F1B241940ECC70089411B</string>
-				<string>4B7F1B251940ECC70089411B</string>
-				<string>4B47F58F194257E700C0150A</string>
-				<string>4B47F590194257E700C0150A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Menulet</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE422A193F9D710055C487</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4BDE422B193F9D710055C487</string>
-				<string>4BDE422C193F9D710055C487</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE422B193F9D710055C487</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE422C193F9D710055C487</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE422D193F9D710055C487</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4BDE422C193F9D710055C487</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BDE422E193F9D710055C487</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE422F193F9D710055C487</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE4230193F9D710055C487</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4BDE422F193F9D710055C487</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BDE4231193F9D710055C487</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE4232193F9D710055C487</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4BDE4231193F9D710055C487</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BDE4233193F9D710055C487</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4BDE4234193F9D710055C487</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>MainMenu.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE4234193F9D710055C487</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/MainMenu.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE4235193F9D710055C487</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4BDE4233193F9D710055C487</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BDE4236193F9D710055C487</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4BDE4241193F9D710055C487</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4BDE4237193F9D710055C487</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4BDE4238193F9D710055C487</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4BDE4239193F9D710055C487</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4BDE4247193F9D710055C487</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4BDE4236193F9D710055C487</string>
-				<string>4BDE4237193F9D710055C487</string>
-				<string>4BDE4238193F9D710055C487</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>4BDE423C193F9D710055C487</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MenuletTests</string>
-			<key>productName</key>
-			<string>MenuletTests</string>
-			<key>productReference</key>
-			<string>4BDE423A193F9D710055C487</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>4BDE423A193F9D710055C487</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MenuletTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4BDE423B193F9D710055C487</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>4BDE421F193F9D710055C487</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>4BDE4226193F9D710055C487</string>
-			<key>remoteInfo</key>
-			<string>Menulet</string>
-		</dict>
-		<key>4BDE423C193F9D710055C487</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>4BDE4226193F9D710055C487</string>
-			<key>targetProxy</key>
-			<string>4BDE423B193F9D710055C487</string>
-		</dict>
-		<key>4BDE423D193F9D710055C487</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4BDE4240193F9D710055C487</string>
-				<string>4BDE423E193F9D710055C487</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>MenuletTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE423E193F9D710055C487</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4BDE423F193F9D710055C487</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE423F193F9D710055C487</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE4240193F9D710055C487</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MenuletTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE4241193F9D710055C487</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4BDE4240193F9D710055C487</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BDE4242193F9D710055C487</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>-</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.9</string>
-				<key>METAL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4BDE4243193F9D710055C487</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>-</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.9</string>
-				<key>METAL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4BDE4244193F9D710055C487</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4BDE4245193F9D710055C487</string>
-				<string>4BDE4246193F9D710055C487</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4BDE4245193F9D710055C487</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8BDCB691668547CEB0B49D0C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>Mac App Icons</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>Mac Developer</string>
-				<key>CODE_SIGN_IDENTITY[sdk=macosx*]</key>
-				<string>Mac Developer</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Menulet/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4BDE4246193F9D710055C487</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8BDCB691668547CEB0B49D0C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>Mac App Icons</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>Mac Developer</string>
-				<key>CODE_SIGN_IDENTITY[sdk=macosx*]</key>
-				<string>Mac Developer</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Menulet/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4BDE4247193F9D710055C487</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4BDE4248193F9D710055C487</string>
-				<string>4BDE4249193F9D710055C487</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4BDE4248193F9D710055C487</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Menulet.app/Contents/MacOS/Menulet</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>MenuletTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks</string>
-				<key>METAL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4BDE4249193F9D710055C487</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Menulet.app/Contents/MacOS/Menulet</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>MenuletTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks</string>
-				<key>METAL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4BDE4250193FC7B90055C487</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PopoverController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE4251193FC7B90055C487</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PopoverController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE4252193FC7B90055C487</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>PopoverController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BDE4253193FC7B90055C487</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4BDE4251193FC7B90055C487</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BDE4254193FC7B90055C487</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4BDE4252193FC7B90055C487</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>521F601EF2694D08B17CD43D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CECF1D6F8E0343FEA3575711</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>558DA42576F94EFAA33DD6B5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>5963D76FAA93460DB451EEE1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/../Pods/Pods-Menulet-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>8BDCB691668547CEB0B49D0C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Menulet.xcconfig</string>
-			<key>path</key>
-			<string>../Pods/Pods-Menulet.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CECF1D6F8E0343FEA3575711</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Menulet.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E045ED1BD554436AACF15289</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CECF1D6F8E0343FEA3575711</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>4BDE421F193F9D710055C487</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B1B4892194F87380029D2E0 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B68F451194A7E2800B0F407 /* PreferencesWindowController.m */; };
+		4B1B4893194F87440029D2E0 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B68F452194A7E2800B0F407 /* PreferencesWindowController.xib */; };
+		4B1B4894194F874B0029D2E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BDE4233193F9D710055C487 /* MainMenu.xib */; };
+		4B47F591194257E700C0150A /* PopoverMenulet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F590194257E700C0150A /* PopoverMenulet.m */; };
+		4B68F44F194A106000B0F407 /* TrafficLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B68F44E194A106000B0F407 /* TrafficLight.m */; };
+		4B7F1B261940ECC70089411B /* PubnubSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1B251940ECC70089411B /* PubnubSettings.m */; };
+		4BDE422D193F9D710055C487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE422C193F9D710055C487 /* main.m */; };
+		4BDE4230193F9D710055C487 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE422F193F9D710055C487 /* AppDelegate.m */; };
+		4BDE4232193F9D710055C487 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDE4231193F9D710055C487 /* Images.xcassets */; };
+		4BDE4241193F9D710055C487 /* MenuletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE4240193F9D710055C487 /* MenuletTests.m */; };
+		4BDE4253193FC7B90055C487 /* PopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE4251193FC7B90055C487 /* PopoverController.m */; };
+		4BDE4254193FC7B90055C487 /* PopoverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BDE4252193FC7B90055C487 /* PopoverController.xib */; };
+		E045ED1BD554436AACF15289 /* libPods-Menulet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CECF1D6F8E0343FEA3575711 /* libPods-Menulet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BDE423B193F9D710055C487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BDE421F193F9D710055C487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BDE4226193F9D710055C487;
+			remoteInfo = Menulet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B47F58F194257E700C0150A /* PopoverMenulet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverMenulet.h; sourceTree = "<group>"; };
+		4B47F590194257E700C0150A /* PopoverMenulet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverMenulet.m; sourceTree = "<group>"; };
+		4B68F44D194A106000B0F407 /* TrafficLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficLight.h; sourceTree = "<group>"; };
+		4B68F44E194A106000B0F407 /* TrafficLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficLight.m; sourceTree = "<group>"; };
+		4B68F450194A7E2800B0F407 /* PreferencestWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencestWindowController.h; sourceTree = "<group>"; };
+		4B68F451194A7E2800B0F407 /* PreferencesWindowController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		4B68F452194A7E2800B0F407 /* PreferencesWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindowController.xib; sourceTree = "<group>"; };
+		4B7F1B241940ECC70089411B /* PubnubSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PubnubSettings.h; sourceTree = "<group>"; };
+		4B7F1B251940ECC70089411B /* PubnubSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PubnubSettings.m; sourceTree = "<group>"; };
+		4BDE4227193F9D710055C487 /* Menulet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Menulet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDE422B193F9D710055C487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BDE422C193F9D710055C487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BDE422E193F9D710055C487 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BDE422F193F9D710055C487 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BDE4231193F9D710055C487 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BDE4234193F9D710055C487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4BDE423A193F9D710055C487 /* MenuletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDE423F193F9D710055C487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BDE4240193F9D710055C487 /* MenuletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuletTests.m; sourceTree = "<group>"; };
+		4BDE4250193FC7B90055C487 /* PopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverController.h; sourceTree = "<group>"; };
+		4BDE4251193FC7B90055C487 /* PopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverController.m; sourceTree = "<group>"; };
+		4BDE4252193FC7B90055C487 /* PopoverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopoverController.xib; sourceTree = "<group>"; };
+		8BDCB691668547CEB0B49D0C /* Pods-Menulet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Menulet.xcconfig"; path = "../Pods/Pods-Menulet.xcconfig"; sourceTree = "<group>"; };
+		CECF1D6F8E0343FEA3575711 /* libPods-Menulet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Menulet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BDE4224193F9D710055C487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E045ED1BD554436AACF15289 /* libPods-Menulet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BDE4237193F9D710055C487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BDE421E193F9D710055C487 = {
+			isa = PBXGroup;
+			children = (
+				4BDE4229193F9D710055C487 /* Menulet */,
+				4BDE423D193F9D710055C487 /* MenuletTests */,
+				4BDE4228193F9D710055C487 /* Products */,
+				8BDCB691668547CEB0B49D0C /* Pods-Menulet.xcconfig */,
+				521F601EF2694D08B17CD43D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BDE4228193F9D710055C487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BDE4227193F9D710055C487 /* Menulet.app */,
+				4BDE423A193F9D710055C487 /* MenuletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BDE4229193F9D710055C487 /* Menulet */ = {
+			isa = PBXGroup;
+			children = (
+				4BDE422E193F9D710055C487 /* AppDelegate.h */,
+				4BDE422F193F9D710055C487 /* AppDelegate.m */,
+				4BDE4231193F9D710055C487 /* Images.xcassets */,
+				4BDE4233193F9D710055C487 /* MainMenu.xib */,
+				4BDE422A193F9D710055C487 /* Supporting Files */,
+				4BDE4250193FC7B90055C487 /* PopoverController.h */,
+				4BDE4251193FC7B90055C487 /* PopoverController.m */,
+				4BDE4252193FC7B90055C487 /* PopoverController.xib */,
+				4B7F1B241940ECC70089411B /* PubnubSettings.h */,
+				4B7F1B251940ECC70089411B /* PubnubSettings.m */,
+				4B47F58F194257E700C0150A /* PopoverMenulet.h */,
+				4B47F590194257E700C0150A /* PopoverMenulet.m */,
+				4B68F44D194A106000B0F407 /* TrafficLight.h */,
+				4B68F44E194A106000B0F407 /* TrafficLight.m */,
+				4B68F450194A7E2800B0F407 /* PreferencestWindowController.h */,
+				4B68F451194A7E2800B0F407 /* PreferencesWindowController.m */,
+				4B68F452194A7E2800B0F407 /* PreferencesWindowController.xib */,
+			);
+			path = Menulet;
+			sourceTree = "<group>";
+		};
+		4BDE422A193F9D710055C487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BDE422B193F9D710055C487 /* Info.plist */,
+				4BDE422C193F9D710055C487 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BDE423D193F9D710055C487 /* MenuletTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BDE4240193F9D710055C487 /* MenuletTests.m */,
+				4BDE423E193F9D710055C487 /* Supporting Files */,
+			);
+			path = MenuletTests;
+			sourceTree = "<group>";
+		};
+		4BDE423E193F9D710055C487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BDE423F193F9D710055C487 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		521F601EF2694D08B17CD43D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CECF1D6F8E0343FEA3575711 /* libPods-Menulet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BDE4226193F9D710055C487 /* Menulet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BDE4244193F9D710055C487 /* Build configuration list for PBXNativeTarget "Menulet" */;
+			buildPhases = (
+				558DA42576F94EFAA33DD6B5 /* Check Pods Manifest.lock */,
+				4BDE4223193F9D710055C487 /* Sources */,
+				4BDE4224193F9D710055C487 /* Frameworks */,
+				4BDE4225193F9D710055C487 /* Resources */,
+				5963D76FAA93460DB451EEE1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Menulet;
+			productName = Menulet;
+			productReference = 4BDE4227193F9D710055C487 /* Menulet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BDE4239193F9D710055C487 /* MenuletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BDE4247193F9D710055C487 /* Build configuration list for PBXNativeTarget "MenuletTests" */;
+			buildPhases = (
+				4BDE4236193F9D710055C487 /* Sources */,
+				4BDE4237193F9D710055C487 /* Frameworks */,
+				4BDE4238193F9D710055C487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BDE423C193F9D710055C487 /* PBXTargetDependency */,
+			);
+			name = MenuletTests;
+			productName = MenuletTests;
+			productReference = 4BDE423A193F9D710055C487 /* MenuletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BDE421F193F9D710055C487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jasdeep Jaitla";
+				TargetAttributes = {
+					4BDE4226193F9D710055C487 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 5G9XC2C6F8;
+					};
+					4BDE4239193F9D710055C487 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 4BDE4226193F9D710055C487;
+					};
+				};
+			};
+			buildConfigurationList = 4BDE4222193F9D710055C487 /* Build configuration list for PBXProject "Menulet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BDE421E193F9D710055C487;
+			productRefGroup = 4BDE4228193F9D710055C487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BDE4226193F9D710055C487 /* Menulet */,
+				4BDE4239193F9D710055C487 /* MenuletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BDE4225193F9D710055C487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1B4893194F87440029D2E0 /* PreferencesWindowController.xib in Resources */,
+				4BDE4254193FC7B90055C487 /* PopoverController.xib in Resources */,
+				4BDE4232193F9D710055C487 /* Images.xcassets in Resources */,
+				4B1B4894194F874B0029D2E0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BDE4238193F9D710055C487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		558DA42576F94EFAA33DD6B5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5963D76FAA93460DB451EEE1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-Menulet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BDE4223193F9D710055C487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1B4892194F87380029D2E0 /* PreferencesWindowController.m in Sources */,
+				4B7F1B261940ECC70089411B /* PubnubSettings.m in Sources */,
+				4B47F591194257E700C0150A /* PopoverMenulet.m in Sources */,
+				4B68F44F194A106000B0F407 /* TrafficLight.m in Sources */,
+				4BDE4253193FC7B90055C487 /* PopoverController.m in Sources */,
+				4BDE4230193F9D710055C487 /* AppDelegate.m in Sources */,
+				4BDE422D193F9D710055C487 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BDE4236193F9D710055C487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDE4241193F9D710055C487 /* MenuletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BDE423C193F9D710055C487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BDE4226193F9D710055C487 /* Menulet */;
+			targetProxy = 4BDE423B193F9D710055C487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BDE4233193F9D710055C487 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BDE4234193F9D710055C487 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BDE4242193F9D710055C487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4BDE4243193F9D710055C487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4BDE4245193F9D710055C487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDCB691668547CEB0B49D0C /* Pods-Menulet.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Mac App Icons";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Menulet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4BDE4246193F9D710055C487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDCB691668547CEB0B49D0C /* Pods-Menulet.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Mac App Icons";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Menulet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4BDE4248193F9D710055C487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Menulet.app/Contents/MacOS/Menulet";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MenuletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		4BDE4249193F9D710055C487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Menulet.app/Contents/MacOS/Menulet";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MenuletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BDE4222193F9D710055C487 /* Build configuration list for PBXProject "Menulet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDE4242193F9D710055C487 /* Debug */,
+				4BDE4243193F9D710055C487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BDE4244193F9D710055C487 /* Build configuration list for PBXNativeTarget "Menulet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDE4245193F9D710055C487 /* Debug */,
+				4BDE4246193F9D710055C487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BDE4247193F9D710055C487 /* Build configuration list for PBXNativeTarget "MenuletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDE4248193F9D710055C487 /* Debug */,
+				4BDE4249193F9D710055C487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BDE421F193F9D710055C487 /* Project object */;
+}

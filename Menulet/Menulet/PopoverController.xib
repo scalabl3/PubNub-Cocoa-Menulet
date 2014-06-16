@@ -31,7 +31,7 @@
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
-                        <action selector="didClickPubnubPreferences:" target="-2" id="o1E-U0-Hzr"/>
+                        <action selector="didClickPubnubPreferences:" target="-2" id="Cqu-8F-7wn"/>
                     </connections>
                 </button>
             </subviews>
