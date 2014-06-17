@@ -18,7 +18,7 @@
 
 @synthesize popoverMenulet;
 @synthesize statusItem;
-@synthesize pubnubSettings;
+@synthesize pubnubians;
 
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
@@ -26,6 +26,7 @@
     [PubNub setDelegate:self];
     //[self updatePubnubConnection];
     [self setupUserDefaults];
+    [self setupStatusBarIcon];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -48,12 +49,12 @@
     // Initialize UserDefaults with empty User Preferences (won't overwrite existing values)
     [[NSUserDefaults standardUserDefaults] registerDefaults:dp];
     
-    pubnubSettings.channel = [[NSUserDefaults standardUserDefaults] stringForKey:@"pubnubChannel"];
-    pubnubSettings.publishKey = [[NSUserDefaults standardUserDefaults] stringForKey:@"pubnubPublishKey"];
-    pubnubSettings.subscribeKey = [[NSUserDefaults standardUserDefaults] stringForKey:@"pubnubSubscribeKey"];
+    pubnubians.channel = [[NSUserDefaults standardUserDefaults] stringForKey:@"pubnubChannel"];
+    pubnubians.publishKey = [[NSUserDefaults standardUserDefaults] stringForKey:@"pubnubPublishKey"];
+    pubnubians.subscribeKey = [[NSUserDefaults standardUserDefaults] stringForKey:@"pubnubSubscribeKey"];
     
-    self.preferencesWindowController = [[PreferencesController alloc] init];
-    self.popoverWindowController = [[PopoverController alloc] init];
+    self.preferencesWindowController = [[PreferencesWindowController alloc] initWithWindowNibName:@"PreferencesWindowController"];
+    self.popoverViewController = [[PopoverController alloc] init];
     
 
 }
@@ -68,7 +69,7 @@
     
     // Assign Controller for Menulet Popover Window and delegate
     self.popoverMenulet = [[PopoverMenulet alloc] initWithFrame:(NSRect){.size={thickness, thickness}}]; /* square item */
-    self.popoverMenulet.delegate = self.popoverWindowController;
+    self.popoverMenulet.delegate = self.popoverViewController;
     [self.statusItem setView:self.popoverMenulet];
     [self.statusItem setHighlightMode:NO]; // Don't show blue highlight when clicked on
 
@@ -79,7 +80,7 @@
 // Open Preferences Window
 - (void) showPreferencesWindow
 {
-    
+    NSLog(@"Show the Window man");
     [self.preferencesWindowController showWindow:nil];
 }
 

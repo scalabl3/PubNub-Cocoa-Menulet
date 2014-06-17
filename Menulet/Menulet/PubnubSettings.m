@@ -10,8 +10,6 @@
 
 @implementation PubnubSettings
 
-@synthesize channel;
-@synthesize publishKey;
-@synthesize subscribeKey;
+
 
 @end

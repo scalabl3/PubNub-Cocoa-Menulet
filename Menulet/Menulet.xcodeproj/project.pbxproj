@@ -12,6 +12,7 @@
 		4B1B4894194F874B0029D2E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BDE4233193F9D710055C487 /* MainMenu.xib */; };
 		4B47F591194257E700C0150A /* PopoverMenulet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F590194257E700C0150A /* PopoverMenulet.m */; };
 		4B68F44F194A106000B0F407 /* TrafficLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B68F44E194A106000B0F407 /* TrafficLight.m */; };
+		4B70A4191950BCC7009449F2 /* Pubnubians.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B70A4181950BCC7009449F2 /* Pubnubians.m */; };
 		4B7F1B261940ECC70089411B /* PubnubSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1B251940ECC70089411B /* PubnubSettings.m */; };
 		4BDE422D193F9D710055C487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE422C193F9D710055C487 /* main.m */; };
 		4BDE4230193F9D710055C487 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE422F193F9D710055C487 /* AppDelegate.m */; };
@@ -37,9 +38,11 @@
 		4B47F590194257E700C0150A /* PopoverMenulet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverMenulet.m; sourceTree = "<group>"; };
 		4B68F44D194A106000B0F407 /* TrafficLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficLight.h; sourceTree = "<group>"; };
 		4B68F44E194A106000B0F407 /* TrafficLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficLight.m; sourceTree = "<group>"; };
-		4B68F450194A7E2800B0F407 /* PreferencestWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencestWindowController.h; sourceTree = "<group>"; };
+		4B68F450194A7E2800B0F407 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
 		4B68F451194A7E2800B0F407 /* PreferencesWindowController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = PreferencesWindowController.m; sourceTree = "<group>"; };
 		4B68F452194A7E2800B0F407 /* PreferencesWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindowController.xib; sourceTree = "<group>"; };
+		4B70A4171950BCC7009449F2 /* Pubnubians.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pubnubians.h; sourceTree = "<group>"; };
+		4B70A4181950BCC7009449F2 /* Pubnubians.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pubnubians.m; sourceTree = "<group>"; };
 		4B7F1B241940ECC70089411B /* PubnubSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PubnubSettings.h; sourceTree = "<group>"; };
 		4B7F1B251940ECC70089411B /* PubnubSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PubnubSettings.m; sourceTree = "<group>"; };
 		4BDE4227193F9D710055C487 /* Menulet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Menulet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,9 +118,11 @@
 				4B47F590194257E700C0150A /* PopoverMenulet.m */,
 				4B68F44D194A106000B0F407 /* TrafficLight.h */,
 				4B68F44E194A106000B0F407 /* TrafficLight.m */,
-				4B68F450194A7E2800B0F407 /* PreferencestWindowController.h */,
+				4B68F450194A7E2800B0F407 /* PreferencesWindowController.h */,
 				4B68F451194A7E2800B0F407 /* PreferencesWindowController.m */,
 				4B68F452194A7E2800B0F407 /* PreferencesWindowController.xib */,
+				4B70A4171950BCC7009449F2 /* Pubnubians.h */,
+				4B70A4181950BCC7009449F2 /* Pubnubians.m */,
 			);
 			path = Menulet;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				4B68F44F194A106000B0F407 /* TrafficLight.m in Sources */,
 				4BDE4253193FC7B90055C487 /* PopoverController.m in Sources */,
 				4BDE4230193F9D710055C487 /* AppDelegate.m in Sources */,
+				4B70A4191950BCC7009449F2 /* Pubnubians.m in Sources */,
 				4BDE422D193F9D710055C487 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -37,7 +37,6 @@
 - (void) publishToChannel:(NSString *)channel message:(NSString*)message onSuccess:(void (^)())onSuccess;
 
 
-- (IBAction)didClickTestConnection:(id)sender;
 - (IBAction)didChangePubnubChannel:(NSFormCell *)sender;
 - (IBAction)didChangePubnubPublishKey:(NSFormCell *)sender;
 - (IBAction)didChangePubnubSubscribeKey:(NSFormCell *)sender;

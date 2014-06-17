@@ -10,8 +10,6 @@
 
 @interface PubnubSettings : NSObject
 
-@property (strong) NSString* channel;
-@property (strong) NSString* publishKey;
-@property (strong) NSString* subscribeKey;
+
 
 @end

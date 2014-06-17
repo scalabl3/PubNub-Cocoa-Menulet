@@ -7,20 +7,22 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "PubnubSettings.h"
+#import "Pubnubians.h"
 #import "PopoverMenulet.h"
 #import "PopoverController.h"
-#import "PreferencestWindowController.h"
+#import "PreferencesWindowController.h"
 #import "PNImports.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate, PNDelegate>
 
-@property (strong) PubnubSettings* pubnubSettings;
+@property (strong) Pubnubians* pubnubians;
 @property (strong) PNConfiguration* pubnubConfig;
 
 @property (assign) IBOutlet NSWindow *window;
-@property (nonatomic, strong) PopoverController* popoverWindowController;
-@property (nonatomic, strong) PreferencesWindowController* preferencesWindowController;
+
+@property (nonatomic, strong) PopoverController* popoverViewController;
+
+@property (nonatomic, strong) NSWindowController* preferencesWindowController;
 
 @property (nonatomic, strong) PopoverMenulet* popoverMenulet;
 @property (nonatomic, strong) NSStatusItem *statusItem;

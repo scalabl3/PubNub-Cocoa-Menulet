@@ -32,7 +32,7 @@
                             <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
                             <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
                                 <connections>
-                                    <action selector="menuClickPreferences:" target="Voe-Tx-rLC" id="cUG-7A-CLv"/>
+                                    <action selector="menuClickPreferences:" target="Voe-Tx-rLC" id="tVL-s1-cHN"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
